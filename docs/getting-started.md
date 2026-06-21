@@ -208,12 +208,10 @@ Set **one** of the following environment variables and ATHF auto-detects your pr
 ```bash
 # Example: configure OpenAI
 export OPENAI_API_KEY=sk-...
-
-# Example: configure a local Ollama instance
-export OLLAMA_HOST=http://localhost:11434
-
 # Example: configure custom OpenAI-compatible endpoint
 export OPENAI_API_HOST=https://api.example.com/v1
+# Example: configure a local Ollama instance
+export OLLAMA_HOST=http://localhost:11434
 ```
 
 To override auto-detection and explicitly set a provider and model:
